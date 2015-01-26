@@ -1,0 +1,14 @@
+SELECT  tweetID,
+		tweet_id_str,
+		from_user_id,
+		tweet,
+		created_at,
+		source,
+		favorite_count,
+		retweet_count,
+		coordinates,
+		lang,
+		filter_level,
+		in_reply_to_status_id_str
+FROM Tweets_DF
+WHERE tweetID=$tweetID 
